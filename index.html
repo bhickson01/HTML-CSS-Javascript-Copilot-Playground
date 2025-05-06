@@ -1,3 +1,131 @@
-test....
-<!-- add an image -->
-<img src="images/test.png" alt="image" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sweet & Spicy Salmon Bowl</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+      background: linear-gradient(135deg, #fdf6f0, #fcefe1);
+      color: #333;
+      padding: 2rem;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: #ffffffdd;
+      padding: 2rem;
+      border-radius: 1.5rem;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      animation: fadeIn 1s ease-in-out;
+    }
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      color: #e07b39;
+    }
+
+
+    p.description {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+    h2 {
+      color: #4a7c59;
+      margin-top: 2rem;
+    }
+    ul, ol {
+      margin-left: 1.5rem;
+      line-height: 1.8;
+    }
+    img.recipe-photo {
+    width: 100%; /* Ensures the image fits within the container */
+    max-width: 100%; /* Prevents the image from exceeding the container width */
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    /* ...existing styles... */
+  
+    /* Add hover effect to the image */
+    img.recipe-photo:hover {
+      transform: scale(1.05); /* Slightly enlarges the image */
+      transition: transform 0.3s ease-in-out; /* Smooth transition */
+    }
+  
+    /* Add hover effect to the headings */
+    h1:hover, h2:hover {
+      color: #d35400; /* Changes color on hover */
+      transition: color 0.3s ease-in-out; /* Smooth transition */
+    }
+  
+    /* Add a button style for interactivity */
+    .button {
+      display: inline-block;
+      padding: 0.8rem 1.5rem;
+      margin-top: 1.5rem;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #fff;
+      background-color: #e07b39;
+      border: none;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+  
+    .button:hover {
+      background-color: #d35400; /* Darker shade on hover */
+      transform: translateY(-3px); /* Slight lift effect */
+    }
+  
+    /* Add a fade-in effect for the container */
+    .container {
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    body {
+    cursor: url('/workspaces/HTML-CSS-Javascript-Copilot-Playground/images/163794.png'), auto; /* Replace 'spatula-cursor.png' with the path to your spatula image */
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Sweet & Spicy Salmon Bowls with Garlic Spinach and Jasmine Rice</h1>
+    <img src="DALL·E 2025-04-30 20.02.48 - A beautifully plated Sweet & Spicy Salmon Bowl with Garlic Spinach and Ginger Jasmine Rice. The bowl includes a perfectly seared salmon fillet glazed .webp" alt="Sweet & Spicy Salmon Bowl" class="recipe-photo">
+    <p class="description">
+      Craving something quick, healthy, and full of flavor? This Sweet & Spicy Salmon Bowl brings together tender glazed salmon,
+      garlicky sautéed spinach, and fragrant ginger jasmine rice for a satisfying, vibrant meal. Perfect for weeknights or meal prep,
+      this bowl is easy to make and customizable with your favorite toppings.
+    </p>
+
+    <h2>Ingredients</h2>
+    <ul>
+      <li><strong>Salmon:</strong> 2 salmon fillets, 2 tbsp honey/maple syrup, 1 tbsp soy sauce, 1 tbsp sriracha, 1 tsp sesame oil, 1 garlic clove (minced), salt & pepper</li>
+      <li><strong>Rice:</strong> 1 cup jasmine rice, 2 cups water, 1 tsp grated fresh ginger, pinch of salt</li>
+      <li><strong>Spinach:</strong> 2 cups fresh spinach, 1 tsp olive or sesame oil, 1 garlic clove (sliced), red pepper flakes (optional)</li>
+      <li><strong>Toppings:</strong> Green onions, sesame seeds, lime wedges, avocado</li>
+    </ul>
+
+    <h2>Instructions</h2>
+    <ol>
+      <li><strong>Cook Rice:</strong> Rinse rice. In a pot, combine rice, water, ginger, and salt. Bring to a boil, cover, and simmer for 15 min. Let rest 5 min.</li>
+      <li><strong>Cook Salmon:</strong> Mix sauce ingredients. Sear salmon for ~4 min per side. Pour sauce over and cook 1–2 min to glaze.</li>
+      <li><strong>Sauté Spinach:</strong> Heat oil, cook garlic for 30 sec. Add spinach and sauté until wilted. Add chili flakes if desired.</li>
+      <li><strong>Build Bowl:</strong> Add rice, top with spinach and salmon. Finish with toppings of choice.</li>
+    </ol>
+  </div>
+</body>
+</html>
